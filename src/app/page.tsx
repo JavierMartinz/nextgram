@@ -9,7 +9,7 @@ export default function Home() {
     <main className="container mx-auto">
       <h1 className="text-center text-4xl font-bold m-10">NextGram</h1>
 
-      <Link className="font-bold text-2xl" href="/photos/total">Show (buggy) intercepted route</Link>
+      <Link className="font-bold text-2xl" href="/photos/total">Click me to show (buggy) intercepted route</Link>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 auto-rows-max	 gap-6 m-10">
         {photos.map(({ id, imageSrc }) => (
